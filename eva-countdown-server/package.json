@@ -1,0 +1,17 @@
+{
+  "name": "eva-countdown-server",
+  "version": "1.0.0",
+  "description": "The server hosting the countdown API",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cheerio": "^1.0.0-rc.5",
+    "express": "^4.17.1",
+    "request": "^2.88.2"
+  }
+}

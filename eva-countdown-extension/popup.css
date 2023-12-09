@@ -1,0 +1,54 @@
+body {
+  width: 350px;
+  height: 525px;
+}
+
+.title {
+  text-align: center;
+}
+
+.tickcounter {
+  z-index: 0;
+  position: relative;
+}
+
+.timestamp {
+  height: 100%;
+  width: 100%;
+  font-size: 0;
+  text-align: center;
+}
+
+.eva-font {
+  font-family: "Times";
+  font-weight: 550;
+  font-stretch: condensed;
+}
+
+.timestamp > .time-unit {
+  text-align: center;
+  display: inline-block;
+  zoom: 1;
+  vertical-align: top;
+  font-size: 12px;
+}
+
+p.number {
+  margin-top: 0;
+  margin-bottom: 0;
+  font-family: "Times";
+  font-stretch: condensed;
+  font-size: 36px;
+}
+
+.poster-container {
+  top: 70px;
+  position: absolute;
+  z-index: -1;
+  text-align: center;
+}
+
+img#poster {
+  height: auto;
+  width: 350px;
+}

@@ -1,0 +1,31 @@
+{
+  "name": "EVA-Countdown",
+  "version": "1.0",
+  "description": "A countdown to the release date of Evangelion 3.0 + 1.0: Thrice Upon a Time in japanese theatres",
+  "permissions": [
+    "declarativeContent",
+    "storage"
+  ],
+  "background": {
+    "scripts": [
+      "background.js"
+    ],
+    "persistent": false
+  },
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "res/icons/icon16.png",
+      "32": "res/icons/icon32.png",
+      "48": "res/icons/icon48.png",
+      "96": "res/icons/icon96.png"
+    }
+  },
+  "icons": {
+    "16": "res/icons/icon16.png",
+    "32": "res/icons/icon32.png",
+    "48": "res/icons/icon48.png",
+    "96": "res/icons/icon96.png"
+  },
+  "manifest_version": 2
+}
